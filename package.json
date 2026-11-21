@@ -1,0 +1,20 @@
+{
+  "name": "whale-sentinel-agent",
+  "version": "1.0.0",
+  "description": "zkVerify Agent Games agent: Proof Gatekeeper + Steal the VFY + Wildcard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test.mjs",
+    "setup-steal": "node setup-steal.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circomlibjs": "^0.1.7",
+    "ethers": "^6.17.0",
+    "snarkjs": "^0.7.5"
+  },
+  "type": "module"
+}
